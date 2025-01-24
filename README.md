@@ -1,0 +1,1 @@
+This repository demonstrates a bug encountered when using nested routes with parameters in React Router v6. The Contact component fails to render as expected due to the path `/contact/*` which causes unexpected behavior with nested routes. The solution involves refactoring the route configuration to ensure parameters are handled correctly.
